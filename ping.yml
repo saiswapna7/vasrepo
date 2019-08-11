@@ -6,7 +6,7 @@
    apt:
      name: apache2
      state: present
-     
+
   - name: start webserver
     service:
      name: apache2

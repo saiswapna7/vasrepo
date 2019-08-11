@@ -14,7 +14,7 @@
 
   template:
 
-    src: templates/mytomconfig.j2
+    src: templates/config.j2
 
     dest: /etc/default/tomcat7
 
@@ -44,7 +44,7 @@
 
   template:
 
-    src: templates/mytomusers.j2
+    src: templates/users.j2
 
     dest: /etc/tomcat7/tomcat-users.xml
 

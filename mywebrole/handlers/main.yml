@@ -1,2 +1,9 @@
 ---
 # handlers file for mywebrole
+- name: restarttomcat
+
+  service:
+
+    name: tomcat7
+
+    state: restarted

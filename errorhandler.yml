@@ -14,4 +14,3 @@
   - name: install wget
     apt:
       name: wget
-  
